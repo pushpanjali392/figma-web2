@@ -1,0 +1,439 @@
+*{
+    margin: 0px;
+}
+
+.common{
+    width: 1140px;
+    margin: auto;
+    max-width: 100%;
+}
+/* *navbar-responsive */
+.fa-bars{
+    padding: 2px;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+}
+.child-show-div a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.child-show-div li{
+    display: block;
+    padding-bottom: 10px;
+}
+.main-show-div{
+    background-color: rgb(23, 23, 78);
+    text-align: center;
+    padding: 30px;
+}
+.main-show-div{
+    display: none;
+}
+.nav-bar-btn{
+    display: none;
+}
+@media (max-width:1199px) and (min-width:0px){
+    .bottom-child{
+        display: none;
+    }
+    .nav-bar-btn{
+        display: block;
+    }
+    .bottom-main{
+        display: flex!important;
+        justify-content: end!important;
+    }
+}
+/* *navbar-responsive */
+
+
+@media (max-width:1199px) and (min-width:992px){
+    .common{
+        max-width: 940px!important;
+        margin: auto;
+    }  
+    .child-banner{
+        width: 31%;
+    }
+}
+
+@media (max-width:992px) and (min-width:768px) {
+    .common{
+        max-width: 720px!important;
+        margin: auto!important;
+    }  
+    .child-banner{
+        width: 43%;
+    }
+}
+@media (max-width:768px) and (min-width:576px) {
+    .common{
+        max-width: 540px!important;
+        margin: auto!important;
+    }  
+    .child-banner{
+        width: 43%;
+    }
+}
+
+@media (max-width:576px) and (min-width:01px) {
+    .common{
+        padding: 0px 15px!important;
+        width: 100%!important;
+    }  
+    .child-banner{
+        width: 100%;
+    }
+}
+.main-head{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.main-head-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.main-head-div li{
+    display: inline;
+}
+.main-head-div a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 16px;
+}
+.nav-btn{
+    padding: 10px 20px;
+    background-color: #0d64e7;
+    border-radius: 5px;
+}
+.bootom{
+    background-color: rgb(37, 37, 88);
+    width: 100%;
+    height: 100px;
+}
+.bottom-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.bottom-child li{
+    display: inline;
+}
+.bottom-child a{
+    color: wheat;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 19px;
+}
+
+.banner{
+    background-image: url("../image/river-mountain-nature-beautiful-mountains-mountains\ 1.png");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-banner-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 700px;
+}
+.banner h1{
+    text-align: center;
+    font-size: 82px;
+    color: rgb(255, 255, 255);
+    /* padding-top: 100px; */
+}
+
+/* .child-banner img{
+    height: 210px;
+    width: 340px;
+    position: relative;
+    bottom: 100px;
+}
+.child-banner h2{
+    color: white;
+    font-size: 64px;
+    position: relative;
+    bottom: 240px;
+    text-align: center;
+} */
+
+
+/* *.package-section */
+.main-package{
+    padding-top: 100px;
+}
+.main-package h2{
+    text-align: center;
+    font-size: 48px;
+    color: rgb(22, 22, 84);
+}
+.main-package-div{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.child-package-div{
+    width: 335px;
+    height: 710px;
+    background-color: rgb(27, 27, 78);
+    border-radius: 10px;margin-bottom: 50px;
+}
+.sub-package-div1{
+    width: 234px;
+    height: 64px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sub-package-div1 h2{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.sub-package-div2 {
+    padding: 0px 20px 0px 20px;
+}
+.sub-package-div2 h2{
+    font-size: 24px;
+}
+.sub-package-div2 h3{
+   color: white;
+   font-size: 48px;
+   padding-top: 100px;
+}
+.sub-package-div2 span{
+    color: violet;
+}
+.sub-package-div2 h4{
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+}
+.sub-package-div2 ol{
+    padding-left: 50px;
+    font-size: 21px;
+    color: white;
+    line-height: 40px;
+    padding-top: 60px;
+}
+
+.sub-package-div3{
+    padding-top: 20px;
+}
+
+.sub-package-div3 a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 80px;
+    background-color: #0166FE;
+    border-radius: 10px;
+}
+
+.sub-package-div4{
+    background-color: violet;
+    width: 234px;
+    height: 64px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+   
+}
+.sub-package-div4 h2{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.sub-package-div5{
+    background-color:yellow;
+    width: 234px;
+    height: 64px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.sub-package-div5 h2{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* *background */
+ .back-main-div{
+    padding-top: 100px;
+}
+.back-child-div img{
+    height: 601px;
+    width: 100%;
+}
+.sub-back-div{
+    height: 601px;
+    width: 420px;
+    background-color: rgb(27, 27, 101);
+    position: absolute;
+    margin-top: -605px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.sub-back-div2{
+    padding: 30px 20px 20px 40px;
+}
+.sub-back-div2 h2{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.sub-back-div2 h3{
+    font-size: 34px;
+    color: white;
+    padding-bottom: 30px;
+}
+.sub-back-div2 p{
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+
+.sub-back-div2{
+    padding: 30px 20px 20px 20px;
+} 
+
+.sub-back-div2 input{
+    padding: 10px 30px 10px 20px; 
+    font-size: 24px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    color: black;
+}
+.sub-back-div2 a{
+   color: white;
+   background-color: #0166FE;
+   text-decoration: none;
+   font-size: 32px;
+   border-radius: 15px;
+   padding: 5px 110px 5px 111px; 
+} 
+
+
+/* footer */
+
+.footer{
+    background-color: rgb(15, 16, 88);
+}
+
+.footer-main-div {
+    padding-bottom: 100px;
+}
+.main-footer-div{
+    margin-top: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.child-footer-div{
+    width: 21%;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.child-footer-div h2{
+    font-size: 24px;
+    padding-bottom: 30px;
+    color: white;
+    
+}
+.child-footer-div p{
+    font-size: 18px;
+    line-height: 45px;
+    color: white;
+}
+.copyright{
+ background-color: black;
+    width: 100%;
+    height: 70px;
+}
+.main-copyright {
+    color: white;
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 70px;
+}
+
+.email{
+    padding: 10px 100px 10px 20px; 
+    font-size: 24px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+.child-footer-div h3{
+    font-size: 45px;
+}
+
+.subscribe{
+    padding: 15px 20px 15px 20px; 
+    background-color: #0166FE;
+    border-radius: 10px;
+    color: wheat;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+@media (max-width:1199px) and (min-width:992px) {
+    .child-package-div{
+        width: 31%;
+    }
+    .child-footer-div{
+        width: 21%;
+    }
+}
+
+@media (max-width:992px) and (min-width:768px){
+    .child-package-div{
+        width: 43%;
+    }
+    .child-footer-div{
+        width: 31%;
+    }
+}
+
+@media (max-width:768px) and (min-width:576px){
+    .child-package-div{
+        width: 100%;
+    }
+    .child-footer-div{
+        width: 43%;
+    }
+}
+
+@media (max-width:576px) and (min-width:01px) {
+    .child-package-div{
+        width: 100%;
+    }
+    .child-footer-div{
+        width: 100%;
+    }
+}
